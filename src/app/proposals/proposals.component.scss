@@ -1,0 +1,16 @@
+.profile-row {
+    display: flex;
+    align-items: center;
+    img {
+        width: 80px;
+        border-radius: 50%;
+        height: 80px;
+        object-fit: cover;
+        object-position: left;
+        margin-right: 16px;
+    }
+}
+
+.description {
+    color: rgba($color: #000000, $alpha: 0.4);
+}

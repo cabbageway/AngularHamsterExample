@@ -1,0 +1,9 @@
+<div class="standard-card padding-16 friendrow">
+    <!-- <p>{{fs.freunde[0]}}</p> -->
+    <div *ngIf="fs.freunde.length === 0">
+        <p>Du hast noch keine Freunde </p>
+    </div>
+    <div class="friend" *ngFor="let name of fs.freunde; let i=index">
+        <img src="{{fs.bilder[i]}}" alt=""> {{name}}
+    </div>
+</div>

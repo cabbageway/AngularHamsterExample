@@ -1,0 +1,9 @@
+.class {
+    min-height: 400px;
+    background-color: white;
+    width: 400px;
+    border: 1px solid black;
+    border-radius: 4px;
+    overflow: hidden;
+    /* Bild soll nicht drüber gehen */
+}
